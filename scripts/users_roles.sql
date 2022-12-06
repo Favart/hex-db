@@ -1,4 +1,4 @@
-CREATE TABLE users_roles (
+CREATE TABLE IF NOT EXISTS users_roles (
     user_id INT NOT NULL,
     role_id INT NOT NULL,
     grant_date TIMESTAMP NOT NULL,
