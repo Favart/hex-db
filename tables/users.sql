@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS users (
 );
 
 ALTER TABLE users
-ADD CONSTRAINT users_check
+ADD CONSTRAINT check_birth_date
 CHECK (
     birth_date > '1900-01-01'
 );
